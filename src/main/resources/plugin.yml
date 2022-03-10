@@ -1,0 +1,21 @@
+name: OneTimeTeleport
+
+authors:
+  - NCBPFluffyBear
+
+description: Lets players tpa once
+
+main: io.ncbpfluffybear.onetimeteleport.OneTimeTeleport
+
+version: ${project.version}
+api-version: 1.16
+
+depend:
+  - CivModCore
+  - SimpleAdminHacks
+
+commands:
+  onetimeteleport:
+    description: OneTimeTeleport teleportation command
+    aliases:
+      - ott
